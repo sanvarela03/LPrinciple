@@ -2,6 +2,7 @@ package model;
 
 import model.vehiculos.Automovil;
 import model.vehiculos.Motocicleta;
+import model.vehiculos.Tractomula;
 
 public class Print {
 
@@ -23,6 +24,11 @@ public class Print {
 
         Impuesto.calcularImpuesto(automovil);
 
+        Tractomula tractomula = new Tractomula();
+
+        tractomula.setValorComercial(100);
+
+        Impuesto.calcularImpuesto(tractomula);
 
     }
 }

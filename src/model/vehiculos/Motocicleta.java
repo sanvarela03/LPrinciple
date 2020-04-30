@@ -5,7 +5,6 @@ import model.tarifas.TarifaMotocicleta;
 
 public class Motocicleta extends VehiculoConTarifa{
 
-
     private int cilindraje;
 
     public int getCilindraje(){
