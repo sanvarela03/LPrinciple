@@ -17,7 +17,7 @@ public class Motocicleta extends VehiculoConTarifa{
     }
 
     @Override
-    public double obtenerTarifa() {
+    public Tarifa obtenerTarifa() {
         Tarifa tarifa = new TarifaMotocicleta();
         return tarifa.cacularTarifa(this);
     }

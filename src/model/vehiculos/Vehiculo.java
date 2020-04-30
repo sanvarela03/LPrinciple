@@ -1,7 +1,5 @@
 package model.vehiculos;
 
-
-
 public class Vehiculo {
 
     private String marca;

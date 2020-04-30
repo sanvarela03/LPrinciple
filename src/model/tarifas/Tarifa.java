@@ -6,6 +6,15 @@ import model.vehiculos.VehiculoConTarifa;
 
 public abstract class Tarifa {
 
-    public abstract double cacularTarifa(VehiculoConTarifa automovil);
+    private double valor;
 
+    public abstract Tarifa cacularTarifa(VehiculoConTarifa automovil);
+
+    public double getValor() {
+        return valor;
+    }
+
+    public void setValor(double valor) {
+        this.valor = valor;
+    }
 }

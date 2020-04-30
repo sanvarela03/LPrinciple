@@ -1,13 +1,12 @@
 package model.tarifas;
 
-import model.vehiculos.Automovil;
 import model.vehiculos.VehiculoConTarifa;
 
-public class TarifaAutomovil extends Tarifa {
+public class TarifaTractomula extends Tarifa {
     @Override
     public Tarifa cacularTarifa(VehiculoConTarifa automovil) {
 
-        super.setValor(0.10);
+        super.setValor(0.30);
 
         return this;
     }
